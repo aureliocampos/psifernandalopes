@@ -1,0 +1,132 @@
+/* HEADER */
+#psi-header {
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+	// background: $c-rose;
+	box-shadow: 0px 0px 12px 0 rgba(0, 0, 0, 0.3);
+	z-index: 9;
+   .psi-header-container {
+      @include flex($justify-content:space-between, $align-item:center);
+		height: 70px;
+		padding: 0 20px;
+		position: relative;
+		@include notebook {
+			@include flex($justify-content:flex-start, $align-item:center);
+			max-width: 1100px;
+   			margin: 0 auto;
+		}
+		.psi-logo {
+			width: 120px;
+		}
+		.psi-header-menu {
+			height: 25px;
+			@include notebook {
+				display: none;
+			}
+		}
+		.psi-menu-hamburguer {
+			width: 35px;
+			height: 100%;
+			cursor: pointer;
+			.psi-line {
+				width: 100%;
+				height: 3px;
+				background: $c-white;
+				margin: 5px 0;
+				transition: 400ms;
+				
+				&:first-of-type {
+					margin-top: 3px;
+				}
+				&:nth-of-type(2) {
+					opacity: 1;
+				}
+			}
+		}
+		.psi-menu-hamburguer.active {
+			.psi-line {
+				margin: -2.5px;
+				&:first-of-type {
+					transform: rotate(45deg);
+					margin-top: 10px;
+				}
+				&:nth-of-type(2) {
+					opacity: 0;
+					width: 0;
+				}
+				&:last-of-type {
+					transform: rotate(-45deg);
+				}
+			}
+		}
+   }
+}
+.psi-header-nav {
+	position: absolute;
+	top: 70px;
+	left: -300rem;
+	max-width: 100%;
+	background: $c-rose-gradient;
+	width: 100%;
+	height: 90vh;
+	transition: 400ms;
+	@include notebook {
+		@include flex($justify-content:space-between, $align-item:center);
+		position: static;
+		max-width: 100%;
+		background: transparent;
+		width: 100%;
+		height: auto;
+		margin-left: 30px;
+	}
+	.psi-nav-items {
+		padding: 20px;
+		@include notebook {
+			@include flex();
+    		padding: 0;
+		}
+		.psi-nav-item {
+			margin: 20px 0;
+			@include notebook {
+				margin: 0 10px;
+				&:after {
+					display: block;
+					content: '';
+					width: 0;
+					height: 5px;
+					background-color: $c-rose;
+					transition: 400ms;
+				}
+				&:hover {
+					&:after {
+						width: 100%;
+					}
+				}
+			}
+			.psi-nav-link {
+				font-family: $font-regular;
+				font-size: 1.1em;
+				color: $c-white;
+				@include notebook {
+					font-size: 0.85em;
+				}
+			}
+		}
+	}
+}
+.psi-header-nav.active {
+	left: 0;
+}
+.psi-midias-items {
+	display: flex;
+	padding: 0 20px;
+	.psi-midias-item {
+		width: 20px;
+		height: 20px;
+		background: black;
+		margin: 0 5px;
+		.psi-midias-link {}
+	}
+}
