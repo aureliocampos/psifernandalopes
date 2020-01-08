@@ -3,3 +3,20 @@
 
 @import 'template/header/header';
 @import 'template/banner/banner';
+
+.psi-container {
+    .psi-content {
+        padding: 50px 20px;
+    }
+}
+
+.psi-title {
+    font-family: $font-buda;
+    font-size: 2em;
+}
+
+.psi-paragraph {
+    font-family: $font-regular;
+    font-size: 1em;
+    margin-top: 0.75em;
+}

@@ -25,7 +25,8 @@
 	font-size: 0.9em;
 	text-transform: uppercase;
 	padding: 1em 1.5em;
-	border: 0.2em solid $color2;
+  border: 0.2em solid $color2;
+  border-radius: 50px;
 	@include notebook {
 		&:hover {
         color: $color1;
@@ -34,12 +35,12 @@
       }
     }
   }
-  .mjv-cta-container {
+  .psi-cta-container {
 	@include flex($justify-content:center, $align-item:center);
 	margin-top: 3em;
   }
   
-  .mjv-section-btn.green {
+  .psi-section-btn.green {
 	@include btnAction($c-white, $c-green);
   }
   

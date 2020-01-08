@@ -1,8 +1,9 @@
 .psi-banner-container {
-    @include flex($justify-content:center, $align-item:center);
+    @include flex($justify-content:center, $align-item:center, $flex-direction:column);
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background: $c-rose-gradient;
+    position: relative;
     .psi-banner-content {
         padding: 0 20px;
         @include notebook {
@@ -24,8 +25,14 @@
                 font-size: 3em;
             }
         }
-        .bg-image {
-            
-        }
+        
     }
+}
+
+.psi-arrow {
+    width: 25px;
+    height: 25px;
+    background: green;
+    position: absolute;
+    bottom: 70px;
 }
