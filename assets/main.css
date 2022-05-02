@@ -349,6 +349,12 @@ p.footer__text {
   .main-banner .section__container {
     max-width: 1114px;
   }
+  .main-banner__content {
+    width: 580px;
+    padding: 0 1em;
+    font-size: 1.25em;
+    z-index: 1;
+  }
   .main-banner__figure {
     display: none;
   }
@@ -401,5 +407,10 @@ p.footer__text {
   .faq__item {
     cursor: pointer;
     text-align: left;
+  }
+}
+@media (min-width: 1536px) {
+  .main-banner__desktop {
+    width: 880px;
   }
 }
