@@ -19,7 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 16px;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -29,7 +29,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
 	position: relative;
 }
 ol, ul {
@@ -60,27 +59,15 @@ a:hover {
 	text-decoration: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {
-	--coral-darkest: #3D1925;
-	--coral-darker: #7A2542;
-	--coral-dark:#5B300D;
-	--coral-spotlight: #7A2542;
-	--coral-light: #933F56;
-	--coral-lighter: #B66472;
+	--coral-darkest: #7A2643;
+	--coral-spotlight: #B76472;
 	--coral-lightest: #FFC7C8;
-	--green-darkest: #2E6977;
-	--green-dark: #4C898E;
-	--green-light: #ADD4D1;
-	--green-lightest: #EDF7F6;
-	--yellow-darkest: #78661E;
-	--yellow-darker: #917F33;
-	--yellow-dark:#5B300D;
-	--yellow-spotlight: #7A2542;
-	--yellow-light: #933F56;
-	--yellow-lighter: #B66472;
-	--yellow-lightest: #FFC7C8;
-	--primary-font: 'Poppins', sans-serif;
+	--black: #121212;
 	--white: #fff;
+	--darkest: #343434;
 	--lightest: #f2f2f2;
+	--gradient-coral: linear-gradient(160.66deg, rgba(255, 199, 199, 0.5) 2.85%, rgba(219, 145, 151, 0) 100%);
+	--primary-font: 'Simonetta', cursive;
+	--secondary-font: 'DM Sans', sans-serif;
 }
