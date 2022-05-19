@@ -1,6 +1,9 @@
 @import url(./normalize.css);
 
 /* Globals */
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: linear-gradient(180deg, #FAF2F0 0%, #FFFFFF 100%);
 }
