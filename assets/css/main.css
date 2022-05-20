@@ -93,13 +93,13 @@ body {
 }
 .card-service__title {
   font: bold 1em / 148% var(--secondary-font);
-  color: var(--lightest);
+  color: var(--white);
   text-align: center;
   text-transform: uppercase;
 }
 .card-service__text {
   font: 400 0.875em / 148% var(--secondary-font);
-  color: var(--lightest);
+  color: var(--white);
   margin-top: 1rem;
 }
 .card-service .card-service__background > .background-image {
@@ -219,10 +219,14 @@ body {
 }
 .term__text {
   font: 400 0.75em var(--secondary-font);
+  color: var(--darkest);
   text-align: center;
   margin: 0.5rem 0;
 }
-
+.term__text > a {
+  color: var(--darkest);
+  text-decoration: underline;
+}
 @media (min-width: 768px) {
   .header__container {
     max-width: 720px;
@@ -234,7 +238,9 @@ body {
     max-width: 720px;
     margin: 0 auto;
   }
-  
+  .section__about > .section__content {
+    width: 60%;
+  }
   /* Services */
   .section__services {
     padding: 1.5em;

@@ -1,0 +1,80 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://fernandalopes.psc.br/#organization",
+      "name" : "Psicóloga Fernanda Lopes - Gestalt Terapeuta - Méier",
+      "url" : "https://fernandalopes.psc.br",
+      "legalName" : "Psicóloga Fernanda Lopes - Gestalt Terapeuta - Méier",
+      "description": "CRIANÇA - ADOLESCENTE - ADULTO - CASAL 🌸 Sua saúde mental em primeiro lugar!",
+      "telephone" : "+55 21 99146 - 2911",
+      "email" : "fernandar.psi@gmail.com",
+      "address" : {
+        "@type" : "PostalAddress",
+        "streetAddress" : "Edifício Palheta - Rua Dias da Cruz, nº147 - Sala 402 - Méier/RJ",
+        "addressLocality" : "Rio de Janeiro",
+        "addressRegion" : "RJ",
+        "addressCountry" : "Brasil",
+        "postalCode" : "20720-010"
+      },
+      "priceRange": "R$ and $",
+      "openingHours": "Mo 09:00-18:00 Tu 09:00-18:00 We 09:00-18:00 Th 09:00-18:00 Fr 09:00-18:00",
+      "hasMap": "https://g.page/psifernandaalves?share",
+      "sameAs": [
+        "https://www.instagram.com/psifernandaalves/"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://fernandalopes.psc.br/#logo",
+        "inLanguage": "pt-BR",
+        "url": "https://fernandalopes.psc.br/assets/images/logo.png",
+        "width": 75,
+        "height": 75,
+        "caption": "Psicóloga Fernanda Lopes - Gestalt Terapeuta - Méier"
+      },
+      "image": {
+        "@id": "https://fernandalopes.psc.br/#logo"
+      }
+    },
+    {
+      "@type" : "LocalBusiness",
+      "@id": "https://fernandalopes.psc.br/#organization"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://fernandalopes.psc.br/#website",
+      "url": "https://fernandalopes.psc.br",
+      "name": "Psicóloga Fernanda Lopes - Gestalt Terapeuta",
+      "description": "CRIANÇA - ADOLESCENTE - ADULTO - CASAL 🌸 Sua saúde mental em primeiro lugar!",
+      "publisher": {
+        "@id": "https://fernandalopes.psc.br/#organization"
+      }
+    },
+    {
+      "@type": "WebContent",
+      "@id": "https://fernandalopes.psc.br/#webpage"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://fernandalopes.psc.br/#webpage",
+      "url": "https://fernandalopes.psc.br",
+      "name": "Psicóloga Fernanda Lopes - Gestalt Terapeuta",
+      "isPartOf": {
+        "@id": "https://fernandalopes.psc.br/#website"
+      },
+      "datePublished": "2022-05-20T00:50:00+0000Z",
+      "dateModified": "2022-05-20T00:50:00+0000Z",
+      "description": "CRIANÇA - ADOLESCENTE - ADULTO - CASAL 🌸 Sua saúde mental em primeiro lugar!",
+      "inLanguage": "pt-br",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://fernandalopes.psc.br"
+          ]
+        }
+      ]
+    }
+  ]
+}
