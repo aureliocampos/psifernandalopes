@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/aureliocampos/psifernandalopes.git"
   },
+  "scripts": {
+    "build": "yarn build" 
+  },
   "keywords": [
     "psicologia"
   ],
