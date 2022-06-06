@@ -92,7 +92,7 @@ body {
   border-radius: 2em;
 }
 .card-service__title {
-  font: bold 1em / 148% var(--secondary-font);
+  font: bold 1.125em / 148% var(--secondary-font);
   color: var(--white);
   text-align: center;
   text-transform: uppercase;
