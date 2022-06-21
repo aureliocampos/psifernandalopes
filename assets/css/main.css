@@ -90,6 +90,9 @@ body {
   padding: 3em 1em;
   margin: 12em 0;
   border-radius: 2em;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #e6b3b4, #ffd5d6);
+  box-shadow: 12px 12px 11px #d6a7a8, -12px -12px 24px #ffe7e8;
 }
 .card-service__title {
   font: bold 1.125em / 148% var(--secondary-font);
