@@ -5,7 +5,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: linear-gradient(180deg, #FAF2F0 0%, #FFFFFF 100%);
+  background: linear-gradient(180deg, #faf2f0 0%, #ffffff 100%);
 }
 .paragraph {
   font: 400 1.125em /148% var(--primary-font);
@@ -72,7 +72,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding:  0 1.5em;
+  padding: 0 1.5em;
 }
 .cta__text {
   color: var(--coral-darkest);
@@ -101,9 +101,8 @@ body {
   text-transform: uppercase;
 }
 .card-service__text {
-  font: 400 0.875em / 148% var(--secondary-font);
+  font: 400 1em / 148% var(--secondary-font);
   color: var(--white);
-  margin-top: 1rem;
 }
 .card-service .card-service__background > .background-image {
   width: auto;
@@ -125,7 +124,7 @@ body {
   z-index: -1;
   transform: scaleX(-1);
 }
-.card-service:first-of-type{
+.card-service:first-of-type {
   margin-top: 10em;
 }
 .card-service:last-of-type {
@@ -218,7 +217,7 @@ body {
 .footer > hr {
   margin-bottom: 1.5em;
   border: none;
-  border-bottom: 1px solid rgb(52 52 52 / 20%);;
+  border-bottom: 1px solid rgb(52 52 52 / 20%);
 }
 .term__text {
   font: 400 0.75em var(--secondary-font);
@@ -251,7 +250,7 @@ body {
     margin: 0 auto;
   }
   .card-service {
-    max-width: 680px;
+    max-width: 600px;
     padding: 4em 3em;
   }
   .card-service__title {
@@ -287,7 +286,7 @@ body {
   .contact__background > .background-image {
     width: 240px;
   }
-  
+
   /* FAQ */
   .section__faq .section__content {
     max-width: 720px;
@@ -296,7 +295,7 @@ body {
 }
 @media (min-width: 1024px) {
   .section__about {
-    max-width: 960px;
+    max-width: 980px;
     align-items: center;
   }
   .section__about > .section__content {
@@ -331,10 +330,6 @@ body {
 @media (min-width: 1200px) {
   .header__container {
     max-width: 1114px;
-  }
-  .section__about > .section__content {
-    width: 55%;
-    font-size: 20px;
   }
   .cta__text {
     font-size: 1.5em;
@@ -385,4 +380,3 @@ body {
     margin: 0 auto;
   }
 }
-
